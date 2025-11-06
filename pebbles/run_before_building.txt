@@ -1,0 +1,5 @@
+export TARGET=i686-elf
+export PREFIX="$HOME/opt/cross"
+export PATH="$PREFIX/bin:$PATH"
+export PATH="$HOME/opt/cross/bin:$PATH"
+cd pebbles
