@@ -8,6 +8,8 @@ extern int death;
 
 static inline unsigned char inb(unsigned short port);
 static inline void outb(unsigned short port, unsigned char value);
+extern char scanCodeToASCII[128];
+char get_chars();
 
 void send(unsigned char command);
 unsigned char get(void);
